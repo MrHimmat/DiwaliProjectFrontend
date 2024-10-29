@@ -1,0 +1,244 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.top-section {
+  background-color: #f99501;
+  min-height: 100vh;
+  background-image: url("./images/orange-backdrop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.audio-section {
+  background-color: #fbd8a4;
+  border-radius: 50px;
+  display: flex;
+  width: max-content;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+.content-section {
+  margin-left: 80px;
+}
+.content-section pre {
+  font-family: "Salsa", cursive;
+}
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+
+.deepak-section {
+  display: flex;
+}
+.music {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+}
+.deepak {
+  max-width: 300px;
+  max-height: 300px;
+}
+.main-section {
+  background-color: #f99501;
+  width: 100%;
+}
+.main-section img {
+  max-width: 700px;
+  width: 100%;
+  margin-left: 30px;
+}
+.main-section h1 {
+  margin-left: 30px;
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+}
+.border-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 1010px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.line1 {
+  height: 1px;
+  width: 468px;
+  background-color: #fbd8a4;
+}
+.circ {
+  height: 5px;
+  border-radius: 100%;
+  width: 6px;
+  background-color: #fbd8a4;
+}
+.line2 {
+  height: 1px;
+  width: 468px;
+  background-color: #fbd8a4;
+}
+
+.body-section {
+  background-color: #f99501;
+  display: flex;
+}
+
+.body-section div {
+  background-color: white;
+  max-height: 750px;
+  margin-left: 30px;
+  width: 855px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.body-section div pre {
+  margin-top: 40px;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px#f99501;
+}
+.body-section img {
+  width: 200px;
+  height: 300px;
+  margin-right: 40px;
+}
+
+.main-body-section {
+  background-color: #f99501;
+}
+.main-body-section img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.ganeshalakshmi {
+  display: flex;
+  margin-left: 30px;
+  border-radius: 30px;
+  max-width: 700px;
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+}
+.footer h2 {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+}
+.footer h3 {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+}
+.love {
+  padding: 1px;
+  margin-left: 550px;
+}
+
+.love p {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+}
+
+@media (max-width: 540px) {
+  .content-section {
+    margin-left: 10px;
+    width: 100%;
+  }
+  .content-section pre {
+    margin: 10px;
+  }
+  .audio-section {
+    width: 250px;
+    margin-left: 70px;
+  }
+  .vector,
+  .group,
+  .salsa-regular {
+    display: none;
+  }
+  .content-section {
+    margin-left: 10px;
+  }
+  .deepak2 {
+    display: none;
+  }
+  .content-section {
+    padding: 10px 10px;
+    margin-left: -60px;
+  }
+  .music {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    margin-left: 80px;
+  }
+  .deepak1 {
+    padding: 10px;
+  }
+  .main-section img {
+    max-width: 300px;
+    height: 160px;
+    width: 100%;
+    margin: 10px;
+  }
+  .circ {
+    height: 4px;
+    border-radius: 100%;
+    width: 5px;
+    background-color: #fbd8a4;
+  }
+  .body-section div {
+    background-color: white;
+    max-height: 199px;
+    width: 205px;
+    border-radius: 20px;
+  }
+  .body-section div pre {
+    margin-left: -10px;
+    font-size: 9px;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px#f99501;
+  }
+  .body-section img {
+    margin-top: 5px;
+    width: 100px;
+    height: 200px;
+  }
+  .main-body-section img {
+    max-width: 100px;
+    max-height: 200px;
+    margin-left: 10px;
+  }
+
+  .ganeshalakshmi {
+    display: flex;
+
+    margin-right: 20px;
+    border-radius: 30px;
+    max-width: 700px;
+    background-color: white;
+  }
+  .love {
+    padding: 1px;
+    margin-left: 50px;
+  }
+}
